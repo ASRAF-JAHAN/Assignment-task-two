@@ -211,3 +211,46 @@ nav{
     width: 30%;
     
  }
+ /* button hover section styles */
+ .button{
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+ }
+
+ .all-button{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    border:none ;
+    color: black;
+ }
+ .button-span{
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+ .button-span:hover{
+    color:#F948B2;
+   
+ }
+ .all-button:hover{
+    background-color: #FFF;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+ }
+ .button-hover{
+    margin-top: 0;
+ }
+ 
+ 
+ 
