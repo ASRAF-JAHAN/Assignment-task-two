@@ -59,6 +59,23 @@
      .play-instant-img-inside img{
         width: 30%;
      }
+     /* button hover section responsive */
+     .button{
+        width: 100%;
+        gap: 10px;
+     }
+     .button-hover{
+       width: 30%;
+
+     }
+     .all-button{
+     width: 70%;
+     padding: 0 60px;
+     }
+     .button-span{
+        font-size: .6rem;
+     }
+     
 
     
 }
