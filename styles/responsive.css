@@ -75,6 +75,20 @@
      .button-span{
         font-size: .6rem;
      }
+     /* footer section responsive */
+     .footer-container{
+        width: 100%;
+     }
+     .icon-next{
+        width: 100%;
+        gap: 20px;
+       font-size: .6rem;
+        
+     }
+     .small-text-first{
+       font-size: .7rem;
+       gap:20px ;
+     }
      
 
     

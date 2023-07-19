@@ -150,6 +150,7 @@ nav{
 .online-game-box{
     width: 25%;
 }
+
 .online-game-box img{
     width: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
