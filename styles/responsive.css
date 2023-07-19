@@ -40,6 +40,14 @@
     .goat-h1{
        font-size:5rem;
     }
+    /* online game section */
+    .online-game-container{
+        flex-direction: column;
+    }
+    .online-game-box{
+        width: 90%;
+        padding: 0 30px;
+    }
 
     
 }
