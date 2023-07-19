@@ -15,6 +15,32 @@
         margin-top: 10px;
         margin-bottom: 15px;
     }
+    /* banner section reponsive */
+    .banner{
+       flex-direction: column;
+       flex-direction: column-reverse;
+       height: 100%;
+        
+    }
+    .banner-content{
+         width: 100%;
+         margin-top: 10px;
+         padding: 0 40px;
+         
+    }
+    .banner .banner-img{
+        width: 100%;
+        text-align: center;  
+     
+    }
+    .banner-img img{
+       width: 80%;
+
+    }
+    .goat-h1{
+       font-size:5rem;
+    }
+
     
 }
 /* responsive for medium device */
@@ -22,4 +48,11 @@
     .nav-content{
         width: 80%;
     }
+    .banner{
+        padding: 0 20px;
+    }
+    .banner-img img{
+        width: 90%;
+ 
+     }
 }
