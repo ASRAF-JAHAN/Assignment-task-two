@@ -160,3 +160,41 @@ nav{
     font-size: 1rem;
     font-weight: 500;
 }
+/* play instantly section */
+.play-instant{
+    max-width: 1400px;
+    min-height: 400px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 0;
+}
+.play-instant-title{
+    width: 50%;
+    text-align: center;
+}
+.play-instant-h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.play-instant-prgh{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.play-instant-img {
+   width: 50%;
+   
+}
+.play-instant-img img {
+    width: 50%;
+ }
+
+ .play-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
