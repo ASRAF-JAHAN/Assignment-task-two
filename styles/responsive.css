@@ -1,0 +1,26 @@
+/* responsive for small or mobile device */
+@media screen and (max-width:576px) {
+    .nav-container{
+       flex-direction: column;
+       /* text-align: center; */
+       /* width: 100%; */
+       margin: 0 80px;
+
+    }
+    .nav-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-content a{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+}
+/* responsive for medium device */
+@media screen and (min-width:576px) and (max-width:990px) {
+    .nav-content{
+        
+        width: 80%;
+    }
+}
