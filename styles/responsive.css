@@ -48,6 +48,17 @@
         width: 90%;
         padding: 0 30px;
     }
+    /* play instant section */
+    .play-instant{
+        width: 100%;
+        flex-direction: column;
+    }
+    .play-instant-img{
+        width: 100%;
+    }
+     .play-instant-img-inside img{
+        width: 30%;
+     }
 
     
 }
