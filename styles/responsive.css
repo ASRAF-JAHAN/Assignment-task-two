@@ -45,8 +45,20 @@
         flex-direction: column;
     }
     .online-game-box{
-        width: 90%;
-        padding: 0 30px;
+        width: 100%;
+        padding: 0 40px;
+    }
+    .online-text{
+        text-align: center;
+    }
+    .online-text-title{
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+    .online-text-prag{
+        font-size: .6rem;
+    
     }
     /* play instant section */
     .play-instant{
@@ -61,7 +73,7 @@
      }
      /* button hover section responsive */
      .button{
-        width: 100%;
+        width: 90%;
         gap: 10px;
      }
      .button-hover{
@@ -80,16 +92,45 @@
         width: 100%;
      }
      .icon-next{
-        width: 100%;
-        gap: 20px;
-       font-size: .6rem;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       margin: 0 auto;
+        gap: 2px;
+       font-size: .7rem;
         
+     }
+     .twt-fb-youtube{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px,auto;
+        
+       }
+       .fa-brands{
+        font-size: 20px;
+        justify-content: center;
+        margin: 0, 80px;
+        width: 40%;
      }
      .small-text-first{
        font-size: .7rem;
-       gap:20px ;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       margin-top: 5px, auto;
+       gap:0px ;
      }
-     
+     .last-p{
+         font-size: .5rem;
+     }
+     .small-text-first p{
+        width: 90%;
+        margin: 0, 50px;
+        margin: 10px, 20px;
+
+     }
 
     
 }

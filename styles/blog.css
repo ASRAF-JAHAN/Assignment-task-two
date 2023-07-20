@@ -149,12 +149,47 @@ nav{
 }
 .online-game-box{
     width: 25%;
+    position:relative;
+    /* aykane position ta new */
 }
+/* ay part ta new */
+.online-game-box .i-am-special{
+    width: 100%;
+}
+.special-icon-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.6);
+    color: #FFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: opacity 0.25s;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.img-box{
+    position: relative;
 
+}
+.img-box:hover .special-icon-text{
+   visibility: visible;
+   z-index: 2;
+}
+.special-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F948B2;
+}
+.special-icon{
+    font-size: 60px ;
+}
 .online-game-box img{
     width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-    background-blend-mode: overlay;
 }
 .img-down-title p{
     color: #534C64;
@@ -280,7 +315,7 @@ nav{
  }
  .icon-next{
     color: #FFF;
-   font-size: .8rem;
+    font-size: .8rem;
     font-weight: 600;
     display: flex;
     gap: 50px;
@@ -295,25 +330,28 @@ nav{
    gap:60px ;
    justify-content: center;
    align-items: center;
-   margin-top: 30px;
+   margin-top: 20px;
+
+
  }
  .footer-container .last-p{
     color: rgba(255, 255, 255, 0.60);
     font-size: .7rem;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 10px;
  }
  .fa-brands{
     font-size: 40px;
  }
  .twt-fb-youtube{
-  margin-top: 30px;
+  margin-top: 5px;
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
   
  }
+
  
  
  
